@@ -37,7 +37,7 @@ function GlitchName() {
 }
 
 function TypewriterLine({ reduced }: { reduced: boolean }) {
-  const full = "Full-Stack Developer | Backend Engineer | AI Builder";
+  const full = "Full-Stack Backend Developer & WordPress Expert · TypeScript · Node.js · AI Builder";
   const [text, setText] = useState(reduced ? full : "");
 
   useEffect(() => {
